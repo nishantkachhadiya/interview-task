@@ -1,0 +1,629 @@
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1680px) {
+    .header_left_part ul {
+        margin-left: 200px;
+    }
+
+    .header_left_part ul li:nth-child(n+3) {
+        margin-left: 100px;
+    }
+
+    .profile_name h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .profile_input_col {
+        padding-left: 20px;
+    }
+
+    .profile_col {
+        padding-right: 20px;
+    }
+
+    .common_input_wrap label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .all_btn {
+        margin-left: 30px;
+    }
+
+    .profile_name p {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .profile_name {
+        margin-left: 12px;
+    }
+
+    .profile_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .atm_card_img_wrap {
+        max-width: calc(50% - 7.5px);
+    }
+
+    .admin_profile_img_wrap p {
+        font-size: 13px;
+    }
+
+    .activites_icon_wrap {
+        margin-right: 20px;
+    }
+
+    .activites_dec h3 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .admin_profile_img_wrap p {
+        font-size: 12px;
+    }
+
+    .admin_list_wrap {
+        padding: 7.5px 15px;
+    }
+
+    .common_padding_wrap {
+        padding: 20px 30px;
+    }
+
+    .atm_card_details_wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .atm_card_img_wrap+.atm_card_img_wrap {
+        margin-left: 0;
+    }
+
+    .atm_card_img_wrap {
+        max-width: 270px;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .profile_info {
+        flex-wrap: wrap;
+    }
+
+    .profile_col,
+    .profile_input_col,
+    .all_btn {
+        width: 100%;
+    }
+
+    .profile_input_col {
+        padding: 20px 0;
+    }
+
+    .all_btn {
+        display: flex;
+        margin-left: 0px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .all_btn .profile_btn {
+        min-width: unset;
+        width: unset;
+        padding: 5px 15px;
+    }
+
+    .profile_btn+.profile_btn {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .common_input_wrap .MuiInputBase-input,
+    .common_input_wrap:nth-child(even) .MuiInputBase-input {
+        max-width: 100%;
+    }
+
+    .profile_all_details_wrap .row>.col-md-9 {
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .profile_all_details_wrap .row>.col-md-3 {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+
+    .activites_wrap,
+    .bank_card_details,
+    .billing_address,
+    .famaily_info_wrap {
+        padding: 15px 20px;
+    }
+
+    .true_btn,
+    .close_btn {
+        min-width: 25px;
+        height: 25px;
+    }
+
+    .blling_address_info .row>div>.row>div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .blling_address_info .row>div>.row>div+div {
+        margin-top: 15px;
+    }
+
+    .famaily_info_wrap {
+        max-height: 540px;
+    }
+
+    .common_title h2 {
+        font-size: 24px;
+    }
+
+    .header_left_part ul {
+        margin-left: 130px;
+    }
+
+    .header_left_part ul li:nth-child(n+3) {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .bank_details_info>.row>div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .bank_details_info>.row>div+div {
+        margin-top: 20px;
+    }
+
+    .common_btn {
+        max-width: 130px;
+        height: 35px;
+    }
+
+    .success_message {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .common_padding_wrap {
+        padding: 15px 20px;
+    }
+
+    .profile_all_details_wrap .row>.col-md-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .profile_all_details_wrap .row>.col-md-9 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .common_input_wrap:nth-child(even) {
+        margin-left: 20px;
+    }
+
+    .common_input_wrap {
+        width: calc(50% - 10px);
+    }
+
+    .header_wrapper {
+        padding: 10px 20px;
+    }
+    .header_left_part ul {
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header_left_part ul li:nth-child(n+3) {
+        margin-left: 60px;
+    }
+    .header_left_part ul {
+        margin-left: 60px;
+    }
+    .success_message {
+        display: none;
+    }
+
+    .profile_info_wrap .famaily_info_wrap_first,
+    .bank_details_info .recevied_wrap {
+        display: block;
+    }
+
+    .famaily_inforamtions {
+        display: none;
+    }
+
+    .profile_all_details_wrap .row>.col-md-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .profile_info_wrap {
+        display: flex;
+    }
+
+    .profile_info_wrap .famaily_info_wrap.famaily_info_wrap_first {
+        max-height: 370px;
+        min-width: 370px;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .common_input_wrap {
+        width: calc(33.33% - 7px);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .common_input_wrap:nth-child(n+3) {
+        margin-top: unset;
+        margin-left: 0px;
+    }
+
+    .common_input_wrap:nth-child(4) {
+        display: none;
+    }
+
+    .common_input_wrap:nth-child(5),
+    .common_input_wrap:nth-child(6) {
+        width: calc(50% - 10px);
+    }
+
+    .common_input_wrap .MuiFormControl-root {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .common_input_wrap:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .common_input_wrap:nth-child(n+2) {
+        margin-left: 10px;
+    }
+
+    .common_input_wrap:nth-child(5) {
+        margin-left: 0px;
+    }
+
+    .common_input_wrap:nth-child(n+4) {
+        margin-top: 10px;
+    }
+
+    .bank_details_info>.row>div:nth-child(1),
+    .bank_details_info>.row>div:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bank_details_info .bank_card_details,
+    .bank_details_info .billing_address,
+    .activites_wrap,
+    .famaily_info_wrap.recevied_wrap {
+        flex: 0 0 calc(50% - 7.5px);
+        max-width: calc(50% - 7.5px);
+    }
+
+    .billing_address {
+        margin-top: 0px;
+    }
+
+    .bank_details_info>.row>div+div {
+        margin-top: 15px;
+    }
+
+    .famaily_info_wrap,
+    .activites_wrap {
+        max-height: 500px;
+    }
+
+    .common_input_wrap .MuiInputBase-input {
+        white-space: nowrap;
+        padding: 8px 10px;
+    }
+
+    .profile_info,
+    .activites_wrap,
+    .bank_card_details,
+    .billing_address,
+    .famaily_info_wrap {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header_left_part ul li:nth-child(n+3) {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #toggle {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 15px;
+    }
+
+    #toggle div {
+        width: 100%;
+        height: 3px;
+        background: #F8991F;
+        margin: 0 auto;
+        transition: all .5s ease 0s;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    #toggle div:nth-child(2) {
+        margin: 5px auto;
+    }
+
+    body[side-menu="side_bar"] #toggle .two {
+        opacity: 0;
+    }
+
+    body[side-menu="side_bar"] #toggle .three {
+        -webkit-transform: rotate(-45deg) translate(6px, -7px);
+        transform: rotate(-45deg) translate(6px, -7px);
+    }
+
+    body[side-menu="side_bar"] #toggle .one {
+        -webkit-transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .common_title h2 {
+        font-size: 20px;
+    }
+
+    .common_btn {
+        max-width: 120px;
+        font-size: 12px;
+    }
+
+    .profile_info_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .profile_info_wrap .famaily_info_wrap.famaily_info_wrap_first {
+        margin-left: 0px;
+        height: 369px;
+        min-width: 100%;
+    }
+
+    .profile_info {
+        margin-top: 15px;
+    }
+
+    .profile_tab_wrap {
+        display: flex;
+        padding: 15px 0;
+    }
+
+    .profile_tab_wrap button {
+        flex-grow: 1;
+        background-color: unset;
+        font-size: 14px;
+        color: #818181;
+        padding: 10px 0;
+        border-bottom: 3px solid #cecece;
+        font-weight: 600;
+        position: relative;
+    }
+
+    body[tab-menu="profile"] .profile_tab_wrap button:nth-child(1),
+    body[tab-menu="wallet"] .profile_tab_wrap button:nth-child(2),
+    body[tab-menu="activities"] .profile_tab_wrap button:nth-child(3),
+    body[tab-menu="invitations"] .profile_tab_wrap button:nth-child(4) {
+        border-bottom: 3px solid #F8991F;
+        color: #F8991F;
+    }
+
+    .bank_details_info>.row>div:nth-child(1),
+    .bank_details_info>.row>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .bank_details_info .bank_card_details,
+    .bank_details_info .billing_address,
+    .activites_wrap,
+    .famaily_info_wrap.recevied_wrap {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: unset;
+        max-width: 100%;
+    }
+
+    .billing_address,
+    .profile_info_wrap,
+    .bank_card_details,
+    .activites_wrap,
+    .famaily_info_wrap.recevied_wrap {
+        display: none;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0, 40px, 0);
+            opacity: 0;
+        }
+
+        to {
+            transform: translate3d(0, 0, 0);
+            opacity: 1
+        }
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    body[tab-menu="profile"] .profile_info_wrap,
+    body[tab-menu="wallet"] .bank_card_details,
+    body[tab-menu="activities"] .activites_wrap,
+    body[tab-menu="invitations"] .famaily_info_wrap.recevied_wrap {
+        opacity: 1;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body[tab-menu="profile"] .profile_info_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .header_left_part > ul {
+        position: fixed;
+        width: 100%;
+        height: calc(100vh + 10px);
+        background-color: #232E3E;
+        z-index: 5;
+        left: 0px;
+        top: 0px;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 40px 40px;
+        transform: translateX(-100%);
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+
+    .header_left_part ul li a {
+        text-transform: uppercase;
+    }
+
+    .header_left_part ul li+li {
+        margin-left: 0;
+    }
+
+    body[side-menu="side_bar"] .header_left_part ul {
+        transform: translateX(0%);
+    }
+
+    .header_left_inner {
+        position: relative;
+        z-index: 10;
+    }
+    .menu_profile{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .menu_profile .profile_name h2,
+    .menu_profile .profile_name p span{
+        color: #fff;
+    }
+    .menu_profile .profile_name img{
+        filter: invert(1);
+    }
+    .menu_profile .profile_col{
+        border-right: 0;
+    }
+    .admin_list_wrap {
+        padding: 10px 15px;
+        height: 50px;
+    }
+    .common_input_wrap {
+        width: calc(50% - 7px);
+    }
+    .common_input_wrap:nth-child(n+2) {
+        margin-left: 0;
+    }
+    .common_input_wrap:nth-child(n+3) {
+        margin-top: 10px;
+    }
+    .profile_input_col{
+        justify-content: space-between;
+    }
+    .header_left_part ul li,
+    .header_left_part ul li .inner_menu ul li a{
+        width: 100%;
+        display: block;
+    }
+    .header_left_part ul li .inner_menu ul li a{
+        padding: 13px 23px 13px 38px;
+    }
+    .header_left_part > ul li > a{
+        display: block;
+    }
+    .inner_menu {
+        visibility: visible;
+        opacity: 1;
+        position: unset;
+        width: 100%;
+        background-color: unset;
+        box-shadow: unset;
+    }
+    .header_left_part ul li .inner_menu ul li a{
+        color: #fff;
+        position: relative;
+    }
+    .header_left_part ul li .inner_menu ul li:first-child a::after{
+        height: 80%;
+        top: -20%;
+    }
+    .header_left_part ul li .inner_menu ul li a::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        top: -50%;
+        left: 10px;
+        position: absolute;
+        background-color: #F8991F;
+    }
+    .header_left_part ul li .inner_menu ul li a::before {
+        content: '';
+        width: 20px;
+        height: 1px;
+        top: 50%;
+        left: 10px;
+        position: absolute;
+        background-color: #F8991F;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .all_btn {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .profile_btn+.profile_btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .common_padding_wrap {
+        padding: 10px 10px;
+    }
+
+}
