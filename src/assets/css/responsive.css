@@ -346,9 +346,13 @@
     .famaily_info_wrap {
         padding: 15px;
     }
+    .profile_btn{
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+
     .header_left_part ul li:nth-child(n+3) {
         margin-left: 0px;
         margin-top: 10px;
