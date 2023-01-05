@@ -197,6 +197,15 @@ button {
     font-weight: 500;
 }
 
+.title_and_view_part .common_btn{
+    border: 1px solid #232E3E;
+}
+
+.title_and_view_part .common_btn:hover{
+    background-color: transparent;
+    color: #232E3E;
+}
+
 .common_btn {
     max-width: 150px;
     width: 100%;
