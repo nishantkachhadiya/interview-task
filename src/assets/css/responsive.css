@@ -374,7 +374,9 @@
     #toggle div:nth-child(2) {
         margin: 5px auto;
     }
-
+    body[side-menu="side_bar"]{
+        overflow: hidden;
+    }
     body[side-menu="side_bar"] #toggle .two {
         opacity: 0;
     }
