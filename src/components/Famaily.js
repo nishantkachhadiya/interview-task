@@ -118,6 +118,32 @@ const Famaily = () => {
                         </div>
                     </div>
                 </li>
+                <li>
+                    <div className='admin_list_wrap'>
+                        <div className='admin_profile_img_wrap'>
+                            <div className='admin_profile_img'>
+                                <img src={person_2} alt="famaily person" />
+                            </div>
+                            <p>John Smith</p>
+                        </div>
+                        <div className='member_wrap'>
+                            <button type='button' className='member_btn'>MEMBER</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div className='admin_list_wrap'>
+                        <div className='admin_profile_img_wrap'>
+                            <div className='admin_profile_img'>
+                                <img src={person_4} alt="famaily person" />
+                            </div>
+                            <p>John Smith</p>
+                        </div>
+                        <div className='member_wrap'>
+                            <button type='button' className='member_btn'>MEMBER</button>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     )
